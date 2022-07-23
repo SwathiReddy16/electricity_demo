@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   API:
-    image: 'swathireddy1316/ElectricityBill'
+    image: 'swathireddy1316/electricitybill'
     ports:
       - "8080:8080"
     depends_on:
