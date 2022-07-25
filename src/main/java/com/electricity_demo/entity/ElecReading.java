@@ -39,9 +39,9 @@ public class ElecReading {
 	@Column(name="Price_Per_Unit")
 	private int priceperUnit;
 	
-	@OneToOne(fetch = FetchType.LAZY,cascade=CascadeType.ALL)
+	/* @OneToOne(fetch = FetchType.LAZY,cascade=CascadeType.ALL)
 	@JoinColumn(name="Cust_ID")
-	private Customer customer;
+	private Customer customer; */
 
 	
 
@@ -77,13 +77,13 @@ public class ElecReading {
 		this.priceperUnit = priceperUnit;
 	}
 
-	public Customer getCustomer() {
+	/* public Customer getCustomer() {
 		return customer;
 	}
 
 	public void setCustomer(Customer customer) {
 		this.customer = customer;
-	}
+	} */
 	
 	
 
